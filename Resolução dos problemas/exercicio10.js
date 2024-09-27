@@ -6,10 +6,10 @@ representando o salário fixo do vendedor e montante total das vendas efetuadas 
 
 Saída Imprima o total que o funcionário deverá receber, conforme exemplo fornecido. */
 
-var nome = parseInt(Johnatan);
-var salarioFixo = parseFloat (1.500);
-var totalDeVendas = parseFloat(2.800);
+var nome = parseInt("Johnatan");
+var salarioFixo = parseFloat (1500);
+var totalDeVendas = parseFloat(2800);
 
-var total = (totalDeVendas*0.015);
+var total = salarioFixo + totalDeVendas * 0.15;
 
-console.log("Valor a receber = ",salarioFixo+total.toFixed(2))
+console.log("Valor a receber = ",total.toFixed(2))
